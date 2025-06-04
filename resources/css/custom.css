@@ -1,0 +1,17 @@
+/* Custom styles untuk BeeswaxApp */
+.bg-login-image {
+    background: url('../img/undraw_posting_photo.svg');
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-register-image {
+    background: url('../img/undraw_thought.svg');
+    background-position: center;
+    background-size: cover;
+}
+
+/* Error message styling */
+.invalid-feedback {
+    display: block;
+}
