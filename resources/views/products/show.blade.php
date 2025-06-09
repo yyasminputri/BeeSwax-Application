@@ -12,9 +12,7 @@ $products = [
         'name' => 'Beeswax Straw Classic',
         'price' => 15000,
         'images' => [
-            'https://images.unsplash.com/photo-1571115764595-644a1f56a55c?w=600',
-            'https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?w=600',
-            'https://images.unsplash.com/photo-1530587191325-3db32d826c18?w=600'
+            asset('img/classic.png'),
         ],
         'description' => 'Sedotan beeswax klasik dengan lapisan tahan air hingga 4 jam. Perfect untuk minuman sehari-hari. Dibuat dari beeswax murni yang diambil langsung dari sarang lebah alami, memberikan solusi ramah lingkungan tanpa mengurangi kenyamanan penggunaan.',
         'features' => ['100% Biodegradable', 'Tahan 4 jam dalam air', 'Food Grade Material', 'Anti Lembek', 'Ramah Lingkungan', 'Tidak berbau'],
@@ -36,9 +34,7 @@ $products = [
         'name' => 'Beeswax Straw Premium',
         'price' => 25000,
         'images' => [
-            'https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?w=600',
-            'https://images.unsplash.com/photo-1571115764595-644a1f56a55c?w=600',
-            'https://images.unsplash.com/photo-1530587191325-3db32d826c18?w=600'
+            asset('img/premium.png'),
         ],
         'description' => 'Sedotan beeswax premium dengan extra coating. Tahan hingga 8 jam dalam air dan minuman panas. Cocok untuk penggunaan intensif dan professional dengan kualitas terbaik.',
         'features' => ['Extra Strong Coating', 'Tahan 8 jam dalam air', 'Anti Panas hingga 60°C', 'Premium Quality', 'Professional Grade', 'Heat Resistant'],
@@ -61,9 +57,7 @@ $products = [
         'name' => 'Beeswax Straw Colored',
         'price' => 20000,
         'images' => [
-            'https://images.unsplash.com/photo-1530587191325-3db32d826c18?w=600',
-            'https://images.unsplash.com/photo-1571115764595-644a1f56a55c?w=600',
-            'https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?w=600'
+            asset('img/colored.png'),
         ],
         'description' => 'Sedotan beeswax dengan pewarna alami. Tersedia dalam 5 warna menarik untuk acara special. Perfect untuk party, wedding, dan event khusus yang membutuhkan sentuhan warna.',
         'features' => ['5 Warna Pilihan', 'Pewarna Alami 100%', 'Party Ready', 'Instagram-able', 'Event Friendly', 'Mix Colors'],
@@ -80,6 +74,28 @@ $products = [
         'category' => 'Colored',
         'rating' => 4.7,
         'reviews' => 67
+    ],
+    4 => [
+        'id' => 4,
+        'name' => 'Beeswax Straw Bundle',
+        'price' => 50000,
+        'images' => [
+            asset('img/bundle.png'),
+        ],
+        'description' => 'Paket hemat 50 pcs sedotan beeswax mixed. Cocok untuk keluarga atau usaha kecil.',
+        'features' => ['50 Pcs', 'Mixed Variant', 'Hemat 30%', 'Bulk Package'],
+        'specifications' => [
+            'Material' => 'Paper + Premium Beeswax',
+            'Length' => '20 cm',
+            'Diameter' => '6 mm',
+            'Weight' => '2 gram',
+            'Durability' => '4 hours in water',
+            'Package' => '50 pcs per pack'
+        ],
+        'stock' => 75,
+        'category' => 'Bundle',
+        'rating' => 4.9,
+        'reviews' => 32
     ]
 ];
 
