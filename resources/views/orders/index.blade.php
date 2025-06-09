@@ -11,7 +11,7 @@ $cartItems = [
         'name' => 'Beeswax Straw Classic',
         'price' => 15000,
         'quantity' => 2,
-        'image' => 'https://images.unsplash.com/photo-1571115764595-644a1f56a55c?w=200',
+        'image' => asset('img/classic.png'),
         'description' => '100% biodegradable beeswax coating'
     ],
     [
@@ -19,7 +19,7 @@ $cartItems = [
         'name' => 'Beeswax Straw Premium',
         'price' => 25000,
         'quantity' => 1,
-        'image' => 'https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?w=200',
+        'image' => asset('img/premium.png'),
         'description' => 'Extra strong coating - tahan 8 jam'
     ],
     [
@@ -27,7 +27,7 @@ $cartItems = [
         'name' => 'Beeswax Straw Colored',
         'price' => 20000,
         'quantity' => 3,
-        'image' => 'https://images.unsplash.com/photo-1530587191325-3db32d826c18?w=200',
+        'image' => asset('img/colored.png'),
         'description' => '5 warna natural untuk party'
     ]
 ];
